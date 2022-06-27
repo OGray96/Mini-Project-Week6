@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mini Project Week 6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
@@ -12,6 +14,35 @@
       <div class="row">
           <h1 class="col-md-12 display-4 d-flex justify-content-center">Library of Congress Search Engine</h1><br>
       </div>
+
+    </div>
+
+    <form>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1" class="middle25"></label>
+            <input type="email" class="form-control width50 middle25" id="exampleFormControlInput1" placeholder="Search!!">
+        </div>
+        
+        <div class="form-group width50">
+            <label for="project-type-input" class="middle50">Project Type</label>
+            <select class="form-control middle50" id="project-type-input">
+            <option selected disabled>Select Format</option>
+            <option value="maps">Maps</option>
+            <option value="audio">Audio Recordings</option>
+            <option value="photos">Photo, Print, Drawing</option>
+            <option value="manuscripts">Manuscripts/Mixed material</option>
+            <option value="newspapers">Newspapers</option>
+            <option value="film-and-videos">Film and Videos</option>
+            <option value="notated-music">Printed music, such as sheet music</option>
+            <option value="websites">Archived websites</option>
+            </select>
+            <button class="middle50">Submit</button>
+        </div>
+    </form>
+
+
+
   </div>
   </body>
   
